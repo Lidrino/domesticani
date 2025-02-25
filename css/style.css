@@ -59,6 +59,14 @@ html, body {
     margin-top: 50px;
 }
 
+.navbar_scrolled {
+    position: fixed;
+    top: 0;
+    margin-top: 0;
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+}
+
 .nav_li {
     list-style: none;
     position: relative;
@@ -84,6 +92,12 @@ html, body {
     text-decoration: none;
     color: black;
     font-size: 30px;
+}
+
+.active_link {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 6px;
 }
 
 /*** CATS STYLE ***/
@@ -170,3 +184,13 @@ html, body {
 }
 
 
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      top: -50px;
+    }
+    to {
+      opacity: 1;
+      top: 0;
+    }
+  }
