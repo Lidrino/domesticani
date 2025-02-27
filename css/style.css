@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
     background-color: rgb(244, 245, 236);
+    font-family: sans-serif;
 }
 
 .wrapper {
@@ -17,11 +18,6 @@ html, body {
 
 .item {
     width: 10%;
-}
-
-
-.container-item {
-    
 }
 
 /*** Header ***/
@@ -62,9 +58,16 @@ html, body {
 .navbar_scrolled {
     position: fixed;
     top: 0;
+    left: 0;
     margin-top: 0;
     animation-name: fadeInUp;
     animation-duration: 1s;
+    background-color: #312929;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .nav_li {
@@ -91,6 +94,11 @@ html, body {
 .nav_a {
     text-decoration: none;
     color: black;
+    font-size: 30px;
+}
+
+.nav_a_scrolled {
+    color: #fff;
     font-size: 30px;
 }
 
@@ -131,10 +139,6 @@ html, body {
 
 /***** MAIN STYLE *****/
 
-.article {
-
-}
-
 .article__item {
     display: flex;
     align-items: center;
@@ -146,7 +150,7 @@ html, body {
 }
 
 .article__item__img {
-    width: 35%;
+    width: 20%;
 }
 
 .left_img {
