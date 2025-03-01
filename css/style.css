@@ -9,6 +9,11 @@ html, body {
 	flex-direction: column;
 	min-height: 100%;
 }
+
+.wrapper_scrolled {
+    padding-top: 70px;
+}
+
 .main {
 	flex: 1 1 auto;
     margin: 0 auto;
@@ -26,8 +31,7 @@ html, body {
 }
 
 .domesticani-logo {
-	margin: 30px auto;
-    width: 40%;
+	margin: 30px auto 0;
     text-align: center;
 }
 
@@ -44,7 +48,7 @@ html, body {
 }
 
 .title-cattery {
-    margin: 14px 0 0 65px;
+    margin: 14px 0 0 30px;
     font-size: 28px;
 }
 
