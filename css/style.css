@@ -17,7 +17,7 @@ html, body {
 .main {
 	flex: 1 1 auto;
     margin: 0 auto;
-    padding: 100px 0 0 0;
+    padding: 50px 0 0 0;
 }
 
 .item {
@@ -92,8 +92,8 @@ html, body {
 }
 
 .nav_a:hover {
-    border: 2px solid #312929;
-    color: #312929;
+    border: 2px solid #6d96b9;
+    color: #6d96b9;
 }
 
 .nav_a_scrolled {
@@ -144,14 +144,12 @@ html, body {
 
 /***** MAIN STYLE *****/
 
-.article {
-    background-color: #c2b0a0;
-}
-
 .article__item {
     display: flex;
     align-items: center;
+    height: 500px;
     padding: 0 380px;
+    background-color: #c2b0a0;
 }
 
 .article__item__text {
@@ -160,20 +158,54 @@ html, body {
 }
 
 .article__item__img {
-    width: 500px;
+    width: 350px;
+    border-radius: 35px;
 }
 
-.left_img {
-    order: 1;
+.facts-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0 380px;
 }
 
-.left_text {
-    order: 2;
-    margin-left: 25px;
+.facts-item {
+    text-align: center;
 }
 
+.facts-title {
+    font-size: 2em;
+    margin: 10px 0;
+}
 
+.facts-text {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
 
+.documents-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0 380px;
+}
+
+.associations-container{
+    display: flex;
+    align-items: center;
+}
+
+.associations-item {
+    margin-right: 50px;
+}
+
+.associations-item-icon {
+    width: 130px;
+}
+
+.associations-item-icon-cfa {
+    width: 130px;
+}
 
 /***** FOOTER STYLE *****/
 
