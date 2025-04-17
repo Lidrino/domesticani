@@ -153,6 +153,7 @@ html, body {
 }
 
 .article__item__text {
+    padding-right: 25px;
     font-size: 28px;
     font-family: sans-serif;
 }
